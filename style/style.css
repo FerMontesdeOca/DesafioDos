@@ -38,6 +38,7 @@ body {
 #hashtag-link {
   padding: 5px;
   border: rgba(0, 0, 0, 0) solid 1px;
+  font-size: 12px;
 }
 
 #hashtag-link:hover {
@@ -48,11 +49,16 @@ body {
 
 #interaction-link {
   padding: 10px;
+  font-size: 12px;
 }
 
 #interaction-link:hover {
   background-color: #F3F3F3;
   border-radius: 5px;
+}
+
+small {
+  font-size: 11px;
 }
 
 #bookmark-link:hover {

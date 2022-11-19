@@ -6,6 +6,7 @@ body {
     background-color: #F5F5F5;
 }
 
+
 #main-nav-link {
     font-weight: bold;
     color: #000000;
@@ -39,6 +40,7 @@ body {
 #hashtag-link {
     padding: 5px;
     border: #00000000 solid 1px;
+    font-size: 12px;
 }
 
 #hashtag-link:hover {
@@ -49,6 +51,7 @@ body {
 
 #interaction-link {
     padding: 10px;
+    font-size: 12px;
 }
 
 #interaction-link:hover {
@@ -56,8 +59,13 @@ body {
     border-radius: 5px;
 }
 
+small {
+    font-size: 11px;
+}
+
 #bookmark-link:hover {
     background-color: #EBECFC; 
     color: #2F3AB1;
 }
+
 
