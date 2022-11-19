@@ -1,1 +1,47 @@
-/*# sourceMappingURL=desktop.css.map */
+@media screen and (min-width: 992px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .card-title {
+    padding-left: 16px;
+  }
+  .card-text {
+    margin-bottom: 10px;
+  }
+  .card-text .li__a {
+    text-decoration: none;
+    color: black;
+  }
+  .card-text .li__a:hover {
+    color: #3541c7;
+  }
+  .card-text #card__li {
+    border: none;
+    background-color: #f8f9fa;
+  }
+  .card-text #card__li:hover {
+    background-color: white;
+  }
+  .card__btn {
+    justify-content: center;
+    align-items: center;
+  }
+  .card__btn .btn {
+    width: 80%;
+    margin: 5px 0 5px 0;
+  }
+  #btn__first {
+    background-color: #3541c7;
+    color: white;
+  }
+  #btn__first:hover {
+    background-color: #1421b9;
+  }
+  #btn__second {
+    background-color: #d6d6d7;
+  }
+  #btn__second:hover {
+    background-color: #929293;
+  }
+}/*# sourceMappingURL=desktop.css.map */

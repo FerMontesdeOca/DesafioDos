@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"desktop.css"}
+{"version":3,"sources":["desktop.scss","_asideDesktop.scss","desktop.css"],"names":[],"mappings":"AAAA;ECAA;IACI,UAAA;IACA,SAAA;ECEF;EDAF;IACI,kBAAA;ECEF;EDAF;IACI,mBAAA;ECEF;EDDE;IACI,qBAAA;IACA,YAAA;ECGN;EDFM;IACI,cAAA;ECIV;EDDF;IACI,YAAA;IACA,yBAAA;ECGF;EDFE;IACI,uBAAA;ECIN;EDAF;IACI,uBAAA;IACA,mBAAA;ECEF;EDDF;IACI,UAAA;IACA,mBAAA;ECGF;EDCF;IACI,yBAAA;IACA,YAAA;ECCF;EDAE;IACI,yBAAA;ECEN;EDCF;IACI,yBAAA;ECCF;EDAE;IACI,yBAAA;ECEN;AACF","file":"desktop.css"}
