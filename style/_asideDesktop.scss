@@ -2,25 +2,32 @@
     padding: 0;
     margin: 0;
 }
+#section__aside--card{
+    width: 45vh;
+}
 .card-title{
     padding-left: 16px;
 }
 .card-text{
     margin-bottom: 10px;
-    .li__a{
-        text-decoration: none;
-        color: black;
-        &:hover{
-            color: #3541c7;
-        }
-    }
+}
 #card__li{
     border: none;
     background-color: #f8f9fa;
+    a{
+        text-decoration: none;
+    color: black;
+    }
     &:hover{
         background-color: white;
+        a{
+        color: #3541c7;
+      }
     }
 }
+.li__a{
+    text-decoration: none;
+    color: black;
 }
 .card__btn{
     justify-content: center;
@@ -42,5 +49,40 @@
     background-color: #d6d6d7;
     &:hover{
         background-color: #929293;
+    }
+}
+.card__item{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#card__li1{
+    border: none;
+    background-color: #f8f9fa;
+    h4{
+        font-weight: bold;
+    }
+    a{
+        text-decoration: none;
+        color: #3541c7;
+    }
+}
+#card__li--bottom{
+    border: none;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a{
+        text-decoration: none;
+    color: black;
+    }
+    h6{
+        font-size: small;
+    }
+    &:hover{
+        a{
+        color: #3541c7;
+      }
     }
 }
