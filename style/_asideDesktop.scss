@@ -64,6 +64,24 @@
         color: #3541c7;
     }
 }
+#card__li2{
+    border: none;
+    background-color: #f8f9fa;
+    h4{
+        font-weight: bold;
+    }
+    h5{
+        font-weight: bold;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        
+        &:hover{
+            color: #3541c7;  
+        }
+    }
+}
 #card__li--bottom{
     border: none;
     background-color: #f8f9fa;
@@ -82,4 +100,10 @@
         color: #3541c7;
       }
     }
+}
+.li__text--high{
+    background-color: #fcd34d;
+    border-radius: 5px;
+    color: #78350f;
+    justify-content: center;
 }

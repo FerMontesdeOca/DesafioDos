@@ -64,6 +64,23 @@
     text-decoration: none;
     color: #3541c7;
   }
+  #card__li2 {
+    border: none;
+    background-color: #f8f9fa;
+  }
+  #card__li2 h4 {
+    font-weight: bold;
+  }
+  #card__li2 h5 {
+    font-weight: bold;
+  }
+  #card__li2 a {
+    text-decoration: none;
+    color: black;
+  }
+  #card__li2 a:hover {
+    color: #3541c7;
+  }
   #card__li--bottom {
     border: none;
     background-color: #f8f9fa;
@@ -80,6 +97,12 @@
   }
   #card__li--bottom:hover a {
     color: #3541c7;
+  }
+  .li__text--high {
+    background-color: #fcd34d;
+    border-radius: 5px;
+    color: #78350f;
+    justify-content: center;
   }
 }
 @media (max-width: 1023px) {
