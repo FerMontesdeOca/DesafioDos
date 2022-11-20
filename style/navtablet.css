@@ -1,0 +1,30 @@
+@media screen and (min-width: 768px) {
+  #principal {
+    background-color: white;
+    box-shadow: 10px 5px 5px rgb(176, 174, 174);
+  }
+  #principal .profile {
+    border-radius: 50px;
+  }
+  #principal .gral__icons {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  #principal .gral__icons a {
+    margin: 10px;
+  }
+  #principal #menu {
+    display: inline;
+    visibility: hidden;
+  }
+  #principal #boton {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid blue;
+    color: blue;
+  }
+  #principal #search__main {
+    visibility: hidden;
+  }
+}/*# sourceMappingURL=navtablet.css.map */

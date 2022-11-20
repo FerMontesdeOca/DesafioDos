@@ -1,0 +1,75 @@
+@media  screen and (max-width: 768px) {
+   
+    #principal{
+        background-color: white;
+        box-shadow: 10px 5px 5px rgb(176, 174, 174);
+        .profile{
+            border-radius: 50px;
+        }
+        .gral__icons{
+            display: flex;
+            justify-content: end;
+            align-items: center;
+                a{
+                    margin: 10px;
+                }
+        }  
+        #form__main{
+            visibility: hidden;
+        }
+        #search__main{
+            visibility: visible;
+            display: flex;
+            justify-content: end;
+        }
+        #boton{
+            display: none;
+        }
+        #menu{
+            // display: grid;
+            // position: absolute;
+            display: block;
+            // visibility: visible ;
+            
+        }
+        #menu__list{
+            li{
+                padding: 3px;
+                font-size: 18px;
+            }
+            li:hover{
+                background-color: rgb(215, 209, 240);
+                padding: 3px;
+                border-radius: 3px;
+                text-decoration: underline solid blue;
+            }
+        }
+        #menu__list2{
+            li{
+                font-size: 18px;
+            }
+        }
+        .offcanvas-subtitle{
+            padding: 5px;
+            h5{
+                color: #000;
+                font-size: 24px;
+                font-weight: 600;
+            }
+        }
+       .aside__icons{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 5px;
+       }
+        // #menu{
+        //     visibility: visible;
+        // }
+      }
+    #aside__menu{
+        display: none;
+    }
+    
+}

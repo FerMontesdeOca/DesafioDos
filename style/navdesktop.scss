@@ -1,0 +1,116 @@
+@media  screen and (min-width: 992px) {
+    main{
+        background-color: rgb(233, 233, 233);
+    }
+  
+  #principal{
+    background-color: white;
+    box-shadow: 10px 5px 5px rgb(176, 174, 174);
+    .profile{
+        border-radius: 50px;
+    }
+    .gral__icons{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+            a{
+                margin: 10px;
+            }
+    } 
+    #boton{
+        background-color: white;
+        border-radius: 5px;
+        border: 1px solid blue;
+        color: blue;
+
+    } 
+    #search__main{
+        visibility: hidden;
+    }
+    #menu{
+        visibility: hidden;
+    }
+}
+#aside__menu{
+    background-color: rgb(233, 233, 233);
+    li{
+        padding: 3px;
+        font-size: 15px;
+    }
+    li:hover{
+        background-color: rgb(215, 209, 240);
+        padding: 3px;
+        border-radius:5px;
+        text-decoration: underline solid blue;
+    }
+
+    .aside__icons__all{
+        width: 200px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        // padding: 5px;
+        a:hover{
+            background-color: rgb(215, 209, 240);
+           padding: 10px;
+            border-radius:5px;
+        }
+
+    }
+    .subtitle{
+        width: 200px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h2{
+            color: #000;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        a:hover{
+            background-color: rgb(215, 209, 240);
+           padding: 10px;
+            border-radius:5px;
+        }
+    }
+    .cards{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .card1{
+        background-color: white;
+        padding: 5px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        a{
+            align-items: center;
+        }
+    }
+    .card2{
+        background-color: white;
+        padding: 5px;
+        border-radius: 5px;
+        h2{
+            font-size: 15px;
+            color: rgb(100, 100, 100);
+        }
+        p{
+            font-size: 15px;
+            font-weight: 600;
+        }
+        a{
+            align-items: center;
+            text-decoration: none;
+        }
+        ul li{
+            color: blue;
+            text-decoration: none;
+            background-color: transparent;
+        }
+    }
+}
+}
