@@ -1,7 +1,4 @@
 @media screen and (min-width: 992px) {
-  main {
-    background-color: rgb(233, 233, 233);
-  }
   #principal {
     background-color: white;
     box-shadow: 10px 5px 5px rgb(176, 174, 174);
@@ -30,7 +27,7 @@
     visibility: hidden;
   }
   #aside__menu {
-    background-color: rgb(233, 233, 233);
+    background-color: #F5F5F5;
   }
   #aside__menu li {
     padding: 3px;
@@ -225,4 +222,68 @@
   #aside__iconos {
     display: none;
   }
+}
+body {
+  background-color: #F5F5F5;
+}
+
+#main-nav-link {
+  font-weight: bold;
+  color: #000000;
+}
+
+#main-nav-link:hover {
+  background-color: #ffffff;
+  border-radius: 10px;
+  color: #3B49DF;
+}
+
+#main-nav-link-2 {
+  color: #000000;
+}
+
+#main-nav-link-2:hover {
+  background-color: #ffffff;
+  border-radius: 10px;
+  color: #3B49DF;
+}
+
+#title-link {
+  color: #000000;
+  text-decoration: none;
+}
+
+#title-link:hover {
+  color: #3B49DF;
+}
+
+#hashtag-link {
+  padding: 5px;
+  border: rgba(0, 0, 0, 0) solid 1px;
+  font-size: 14px;
+}
+
+#hashtag-link:hover {
+  background-color: #F3F3F3;
+  border: #e0e0e0 solid 1px;
+  border-radius: 5px;
+}
+
+#interaction-link {
+  padding: 10px;
+  font-size: 14px;
+}
+
+#interaction-link:hover {
+  background-color: #F3F3F3;
+  border-radius: 5px;
+}
+
+small {
+  font-size: 12px;
+}
+
+#bookmark-link:hover {
+  background-color: #EBECFC;
+  color: #2F3AB1;
 }/*# sourceMappingURL=style.css.map */
