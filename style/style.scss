@@ -1,11 +1,18 @@
 @import "navdesktop";
 @import "navtablet";
 @import "navmobile";
+@import"asideDesktop";
 
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    padding: 16px;
+}
 body {
     background-color: #F5F5F5;
 }
-
 
 #main-nav-link {
     font-weight: bold;
@@ -68,6 +75,18 @@ small {
     color: #2F3AB1;
 }
 
+
+@media(max-width: 1023px) {
+    .section__aside{
+      visibility: hidden;
+    }
+    #main__section{
+        width: 3fr;
+    }
+    #aside__menu{
+        width: 1fr;
+    }
+  }
 
 
 
