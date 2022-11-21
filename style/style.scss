@@ -1,3 +1,9 @@
-@import url(./desktop.css);
-@import url(./tablet.css);
-@import url(./mobile.css);
+@import"asideDesktop";
+@import"asideArticle";
+@import"footer";
+
+@media(max-width: 1023px) {
+  .section__aside{
+    display: none;
+}
+}
