@@ -109,4 +109,24 @@
     text-decoration: none;
     background-color: transparent;
   }
+  #aside__iconos {
+    margin-bottom: 200px;
+    padding: 10px;
+    position: fixed;
+  }
+  #aside__iconos .art__heart {
+    height: 100px;
+  }
+  #aside__iconos .art__heart a:hover {
+    padding: 5px;
+    height: 500px;
+    background-color: red;
+    border-radius: 50px;
+  }
+  #aside__iconos .art__comment {
+    height: 100px;
+  }
+  #aside__iconos .art__save {
+    height: 100px;
+  }
 }/*# sourceMappingURL=navdesktop.css.map */
