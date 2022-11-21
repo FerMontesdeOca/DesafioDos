@@ -156,6 +156,10 @@
   #principal #search__main {
     visibility: hidden;
   }
+  #main__section {
+    margin: 0;
+    width: 100%;
+  }
 }
 @media screen and (max-width: 768px) {
   #principal {
@@ -354,6 +358,18 @@ main {
   padding: 16px;
 }
 
+#main__section {
+  width: 50%;
+}
+
+.section__aside {
+  width: 25%;
+}
+
+#aside__menu {
+  width: 25%;
+}
+
 body {
   background-color: #F5F5F5;
 }
@@ -421,12 +437,9 @@ small {
 
 @media (max-width: 1023px) {
   .section__aside {
-    visibility: hidden;
+    display: none;
   }
   #main__section {
-    width: 3fr;
-  }
-  #aside__menu {
-    width: 1fr;
+    width: 70%;
   }
 }/*# sourceMappingURL=style.css.map */
