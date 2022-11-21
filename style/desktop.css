@@ -103,6 +103,9 @@
     border-radius: 5px;
     color: #78350f;
     justify-content: center;
+    width: 20%;
+    height: 25px;
+    margin: 0;
   }
 }
 @media (max-width: 1023px) {
