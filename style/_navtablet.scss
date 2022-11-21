@@ -15,13 +15,7 @@
                     margin: 10px;
                 }
         } 
-        #menu{
-            display: inline;
-            // display: grid;
-            // position: absolute;
-            visibility: hidden;
-            
-        }
+       
         #boton{
             background-color: white;
             border-radius: 5px;
@@ -41,6 +35,9 @@
 #main__section{
     margin: 0;
     width: 100%;
+}
+#aside__menu{
+    width: 10%;
 }
     
 }

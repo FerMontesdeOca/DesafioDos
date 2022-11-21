@@ -24,7 +24,7 @@
     visibility: hidden;
   }
   #principal #menu {
-    visibility: hidden;
+    display: none;
   }
   #aside__menu {
     background-color: #F5F5F5;
@@ -143,10 +143,6 @@
   #principal .gral__icons a {
     margin: 10px;
   }
-  #principal #menu {
-    display: inline;
-    visibility: hidden;
-  }
   #principal #boton {
     background-color: white;
     border-radius: 5px;
@@ -159,6 +155,9 @@
   #main__section {
     margin: 0;
     width: 100%;
+  }
+  #aside__menu {
+    width: 10%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -189,7 +188,7 @@
     display: none;
   }
   #principal #menu {
-    display: block;
+    display: inline-block;
   }
   #principal #menu__list li {
     padding: 3px;
@@ -359,15 +358,15 @@ main {
 }
 
 #main__section {
-  width: 50%;
+  width: 60%;
 }
 
 .section__aside {
-  width: 25%;
+  width: 20%;
 }
 
 #aside__menu {
-  width: 25%;
+  width: 20%;
 }
 
 body {
