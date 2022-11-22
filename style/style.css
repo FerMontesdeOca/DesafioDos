@@ -758,6 +758,11 @@ small {
   margin: 0;
 }
 
+@media (max-width: 576px) {
+  #aside__fixed {
+    display: none;
+  }
+}
 @media (max-width: 1023px) {
   .section__aside {
     display: none;
