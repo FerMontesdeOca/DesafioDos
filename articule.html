@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/logo.png" />
+    <title>DEV Community 👩‍💻👨‍💻</title>
 </head>
 <body>
     <header>
-        <div class="container-fluid">        
+        <div class="container-fluid fixed-top">        
             <div class="row" id="principal">
                 <div class="col-5 d-flex align-content-center">  
-                    <nav class="navbar top d-flex justify-content-end" id="menu">
+                    <nav class="navbar top d-flex justify-content-end d-md-none d-sm-block" id="menu">
                         <div class="container ">
                           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                             <span class="navbar-toggler-icon"></span>
@@ -47,13 +48,14 @@
                                 <li class="nav-item"><a class="nav-link active" href="#">😎 Privacy Policy</a></li>
                                 <li class="nav-item"><a class="nav-link active" href="#">📜 Terms of use</a></li>
                               </ul>
-
-                              <div class="aside__icons">                                
-                                    <a href="#"><img src="./img/twitter-svgrepo-com.svg" width="30" height="30" alt="Twitter-icon" /></a>
-                                    <a href="#"><img src="./img/facebook-svgrepo-com.svg" width="30" height="30" alt="Facebook-icon" /></a>
-                                    <a href="#"><img src="./img/github-svgrepo-com.svg" width="30" height="30" alt="Github-icon" /></a>
-                                    <a href="#"><img src="./img/instagram-alt-svgrepo-com.svg" width="30" height="30" alt="Instagram-logo" /></a>
-                                    <a href="#"><img src="./img/twitch-svgrepo-com.svg" width="30" height="30" alt="twitch-logo" /></a>                                                               
+                              <div class="aside__icons__all">       
+                                <ul>
+                                    <li  class="nav-item"> <a href="#"><img src="./img/twitter-svgrepo-com.svg" width="30" height="30" alt="Twitter-icon" /></a></li>
+                                    <li  class="nav-item"><a href="#"><img src="./img/facebook-svgrepo-com.svg" width="30" height="30" alt="Facebook-icon" /></a></li>
+                                    <li  class="nav-item"><a href="#"><img src="./img/github-svgrepo-com.svg" width="30" height="30" alt="Github-icon" /></a></li>
+                                    <li  class="nav-item"> <a href="#"><img src="./img/instagram-alt-svgrepo-com.svg" width="30" height="30" alt="Instagram-logo" /></a></li>
+                                    <li  class="nav-item"> <a href="#"><img src="./img/twitch-svgrepo-com.svg" width="30" height="30" alt="twitch-logo" /></a>    </li>
+                                </ul>                                                                                  
                               </div>
                             </div>
                           </div>
@@ -83,30 +85,74 @@
     </header>
     <main>
         <div class="container-fluid d-flex justify-content-around">
-            <div class="col-2" id="aside__iconos">
+            <div class="col d-sm-none d-md-block" id="aside__fixed">
               <aside class="side-bar">
-                    <div class="art__heart flex-column align-content-center">
-                        <a href=""><img src="./img/heart-svgrepo-com.svg" width="30" height="30" alt=""></a>
-                        <span>4</span>
-                    </div>
+                <ul>
+                  <li>
+                    <!-- <div class="art__heart"> -->
+                     <a href=""><img src="./img/heart-svgrepo-com.svg" width="30" height="30" alt=""></a>
+                     <p>4</p>
+                    <!-- </div> -->
+                  </li>
+                  <li>
                     <div class="art__comment">
-                        <img src="./img/comment-svgrepo-com.svg" width="30" height="30" alt="">
-                        <img src="./img/speech-bubble-comment-svgrepo-com.svg" width="30" height="30" alt="" style="display:none;">
-                        <span>0</span>
+                      <img src="./img/comment-svgrepo-com.svg" width="30" height="30" alt="">
+                      <p>0</p>
                     </div>
+                  </li>
+                  <li>
                     <div class="art__save">
-                        <img src="./img/bookmark-save-svgrepo-com.svg" width="30" height="30" alt="">
-                        <img src="./img/save-svgrepo-com.svg" width="30" height="30" alt="" style="display:none;">
-                        <span>4</span>
+                      <img src="./img/bookmark-save-svgrepo-com.svg" width="30" height="30" alt="">
+                      <p>4</p>
                     </div>
-                    <div class="art__more">...</div>
+                  </li>
+                  <li>
+                     <div class="art__more">...</div>
+                  </li>
+                </ul>          
               </aside>
             </div>
-            <div class="col-6">MAIN PRINCIPAL PAO</div>
-            <div class="col-3">ASIDE FERNANDO</div>
+<!-- articulos -->
+
+            
+<!-- other aside -->
+
+            
         </div>
        
     </main>
+    <footer>
+      <section id="all__footer">
+        <div class="container-fluid d-md-none">
+          <ul>
+            <li>
+               <div class="art__heart">
+               <img src="./img/heart-svgrepo-com.svg" width="20" height="20" alt="">
+               <span>4</span>
+              </div>
+            </li>
+            <li>
+              <div class="art__comment">
+                <img src="./img/comment-svgrepo-com.svg" width="20" height="20" alt="">
+                <span>0</span>
+              </div>
+            </li>
+            <li>
+              <div class="art__save">
+                <img src="./img/bookmark-save-svgrepo-com.svg" width="20" height="20" alt="">
+                <span>4</span>
+              </div>
+            </li>
+            <li>
+               <div class="art__more">...</div>
+            </li>
+          </ul>          
+        </div>
+      </section>
+
+    </footer>
+  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
+      

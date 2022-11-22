@@ -1,7 +1,6 @@
 @media screen and (min-width: 992px) {
   #principal {
     background-color: white;
-    box-shadow: 10px 5px 5px rgb(176, 174, 174);
   }
   #principal .profile {
     border-radius: 50px;
@@ -41,17 +40,20 @@
             text-decoration: underline solid blue;
   }
   #aside__menu .aside__icons__all {
-    width: 200px;
+    width: 230px;
+    height: 100px;
+  }
+  #aside__menu .aside__icons__all ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
     margin-top: 20px;
     margin-bottom: 20px;
+    list-style: none;
   }
-  #aside__menu .aside__icons__all a:hover {
+  #aside__menu .aside__icons__all li:hover {
     background-color: rgb(215, 209, 240);
-    padding: 10px;
     border-radius: 5px;
   }
   #aside__menu .subtitle {
@@ -66,10 +68,18 @@
     font-size: 18px;
     font-weight: 600;
   }
-  #aside__menu .subtitle a:hover {
+  #aside__menu .subtitle ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style: none;
+  }
+  #aside__menu .subtitle li:hover {
     background-color: rgb(215, 209, 240);
-    padding: 10px;
-    border-radius: 5px;
+    padding: 5px;
   }
   #aside__menu .cards {
     margin-top: 20px;
@@ -126,11 +136,39 @@
   #aside__iconos .art__save {
     height: 100px;
   }
+  #contenido {
+    width: 100%;
+  }
+  #aside__fixed {
+    height: 100vh;
+    /* Esto lo mantendra en su sitio */
+    position: fixed;
+    margin-top: 60px;
+    top: 0;
+    left: 0;
+  }
+  #aside__fixed ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  #aside__fixed ul li {
+    width: 25px;
+    height: 100px;
+    list-style: none;
+    padding: 5px;
+  }
+  #aside__fixed ul li img {
+    display: flex;
+    justify-content: center;
+  }
+  #aside__fixed ul li p {
+    text-align: center;
+  }
 }
 @media screen and (min-width: 768px) {
   #principal {
     background-color: white;
-    box-shadow: 10px 5px 5px rgb(176, 174, 174);
   }
   #principal .profile {
     border-radius: 50px;
@@ -152,6 +190,101 @@
   #principal #search__main {
     visibility: hidden;
   }
+  #aside__menu {
+    background-color: #F5F5F5;
+  }
+  #aside__menu li {
+    padding: 3px;
+    font-size: 15px;
+  }
+  #aside__menu li:hover {
+    background-color: rgb(215, 209, 240);
+    padding: 3px;
+    border-radius: 5px;
+    -webkit-text-decoration: underline solid blue;
+            text-decoration: underline solid blue;
+  }
+  #aside__menu .aside__icons__all {
+    width: 230px;
+    height: 100px;
+  }
+  #aside__menu .aside__icons__all ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style: none;
+  }
+  #aside__menu .aside__icons__all li:hover {
+    background-color: rgb(215, 209, 240);
+    border-radius: 5px;
+  }
+  #aside__menu .subtitle {
+    width: 200px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #aside__menu .subtitle h2 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  #aside__menu .subtitle ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style: none;
+  }
+  #aside__menu .subtitle li:hover {
+    background-color: rgb(215, 209, 240);
+    padding: 5px;
+  }
+  #aside__menu .cards {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #aside__menu .card1 {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  #aside__menu .card1 a {
+    text-align: center;
+    align-items: center;
+  }
+  #aside__menu .card1 a img {
+    width: 210px;
+  }
+  #aside__menu .card2 {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  #aside__menu .card2 h2 {
+    font-size: 15px;
+    color: rgb(100, 100, 100);
+  }
+  #aside__menu .card2 p {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  #aside__menu .card2 a {
+    align-items: center;
+    text-decoration: none;
+  }
+  #aside__menu .card2 ul li {
+    color: blue;
+    text-decoration: none;
+    background-color: transparent;
+  }
   #main__section {
     margin: 0;
     width: 100%;
@@ -159,11 +292,36 @@
   #aside__menu {
     width: 10%;
   }
+  #aside__fixed {
+    height: 100vh;
+    /* Esto lo mantendra en su sitio */
+    position: fixed;
+    margin-top: 60px;
+    top: 0;
+    left: 0;
+  }
+  #aside__fixed ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  #aside__fixed ul li {
+    width: 25px;
+    height: 100px;
+    list-style: none;
+    padding: 5px;
+  }
+  #aside__fixed ul li img {
+    display: flex;
+    justify-content: center;
+  }
+  #aside__fixed ul li p {
+    text-align: center;
+  }
 }
 @media screen and (max-width: 768px) {
   #principal {
     background-color: white;
-    box-shadow: 10px 5px 5px rgb(176, 174, 174);
   }
   #principal .profile {
     border-radius: 50px;
@@ -212,17 +370,51 @@
     font-size: 24px;
     font-weight: 600;
   }
-  #principal .aside__icons {
-    width: 100%;
+  #principal .aside__icons__all ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 5px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style: none;
+  }
+  #principal .aside__icons__all li:hover {
+    background-color: rgb(215, 209, 240);
+    border-radius: 5px;
+    padding: 5px;
   }
   #aside__menu {
     display: none;
   }
   #aside__iconos {
+    display: none;
+  }
+  #all__footer {
+    position: fixed;
+    width: 100%;
+    margin-top: 100px;
+    height: 60px;
+    background-color: white;
+    box-shadow: 10px 5px 5px rgb(203, 201, 201);
+  }
+  #all__footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  #all__footer ul li {
+    padding: 10px;
+    list-style: none;
+  }
+  #all__footer ul li:hover {
+    background-color: rgb(215, 209, 240);
+    border-radius: 50px;
+  }
+}
+@media (max-width: 576px) {
+  #aside__fixed {
     display: none;
   }
 }
