@@ -2,6 +2,8 @@
 @import "navtablet";
 @import "navmobile";
 @import"asideDesktop";
+@import"asideArticle";
+@import"footer";
 
 *{
     margin: 0;
@@ -9,6 +11,7 @@
 }
 main{
     padding: 16px;
+    margin-top: 56px;
 }
 #main__section{
     width: 60%;
@@ -83,6 +86,9 @@ small {
     background-color: #EBECFC; 
     color: #2F3AB1;
 }
+#article__main{
+    margin: 0;
+}
 
 
 @media(max-width: 1023px) {
@@ -93,6 +99,3 @@ small {
         width: 70%;
     }
   }
-
-
-

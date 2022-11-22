@@ -1,5 +1,7 @@
 @media  screen and (max-width: 768px) {
-   
+   footer{
+    margin-bottom: 60px;
+   }
     #principal{
         background-color: white;
         // box-shadow: 10px 5px 5px rgb(203, 201, 201);
@@ -77,18 +79,16 @@
     }
     #aside__iconos{
         display:none;
-    }
-
+    }   
     #all__footer{
-        position: fixed;
         width: 100%;
-        margin-top: 100px;
         height: 60px;
         background-color: white;
         box-shadow: 10px 5px 5px rgb(203, 201, 201);
         // background-color: #000;
         ul{
             display: flex;
+            flex-direction: row;
             justify-content:space-between;
             align-items: center;
             width: 100%;
@@ -102,11 +102,4 @@
             }
         }
     }
-    
-    
 }
-@media (max-width: 576px) { 
-    #aside__fixed{
-        display: none;
-    }
- }
